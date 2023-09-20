@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator Project </title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Calculator</title>
+    <meta
+      name="description"
+      content="Basic simple Calculator"
+    />
+  <title>JS Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="calculator">
-        <div class="display-screen" id="screen">0</div>
-            <div class="buttons">
-                <button class="number" value="7">7</button>
-                <button class="number" value="8">8</button>
-                <button class="number" value="9">9</button>
-                <button class="operator" value="+">+</button>
-
-                <button class="number" value="4">4</button>
-                <button class="number" value="5">5</button>
-                <button class="number" value="6">6</button>
-                <button class="operator" value="-">-</button>
-
-                <button class="number" value="1">1</button>
-                <button class="number" value="2">2</button>
-                <button class="number" value="3">3</button>
-                <button class="operator" value="*">*</button>
-
-                <button class="number" value="0">0</button>
-                <button class="clear" id="clear">C</button>
-                <button class="equals" id="equals">=</button>
-                <button class="operator" value="/">/</button>
-            </div>
-        </div>
+  <body>
+    <h1>Basic Simple Calculator</h1>
+    <div class="calculator">
+      <input type="text" placeholder="0" id="calc-input" readonly />
+      <button class="num-btn">1</button>
+      <button class="num-btn">2</button>
+      <button class="num-btn">3</button>
+      <button class="op-btn math-op">+</button>
+      <button class="num-btn">4</button>
+      <button class="num-btn">5</button>
+      <button class="num-btn">6</button>
+      <button class="op-btn math-op">-</button>
+      <button class="num-btn">7</button>
+      <button class="num-btn">8</button>
+      <button class="num-btn">9</button>
+      <button class="op-btn math-op">*</button>
+      <button class="num-btn">0</button>
+      <button class="op-btn math-op">/</button>
+      <button class="op-btn" id="equal-btn">=</button>
+      <button class="op-btn" id="clear-btn">C</button>
     </div>
-    <script src="js/script.js"></script>
-</body>
+  </body>
+  <script src="js/script.js"></script>
 </html>
