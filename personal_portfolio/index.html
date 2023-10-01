@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Vinoth</title>
+    <script src="https://kit.fontawesome.com/6481257ff6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- HEADER  -->
+ <div id="header">
+    <div class="container">
+        <!-- Navigation Menu  -->
+        <nav>
+            <h1>Vinoth <span>Raj </span></h1>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+        </nav>
+        <div class="header-content">
+            <h1>Hello , I'm Vinoth </h1>
+            <p>Full Stack Web Developer </p>
+        </div>
+    </div>
+ </div>
+
+ <!-- About section -->
+ <div id="aboutMe">
+     <div class="container">
+        <div class="row">
+            <div class="aboutMe-col1">
+                <img src="images/yellow1.jpg" alt="my-image">
+            </div>
+            <div class="aboutMe-col2">
+                <h1 class="aboutMe-title">About Me</h1>
+                <p>I am a passionate and motivated Frontend Web
+                    Developer currently pursuing my second year of
+                    college education. With a strong foundation in web
+                    development and a growing interest in full-stack
+                    development, I am dedicated to honing my skills and
+                    staying up-to-date with the latest trends and
+                    technologies in the field.</p>
+                <div class="aboutMe-titles">
+                    <p  class="title-links active-link " onclick="show('skills')">Skills</p>
+                    <p class="title-links " onclick="show('education')">Education</p>
+                    <p class="title-links " onclick="show('experience')">Experience</p>
+                </div>
+                <div class="aboutMe-contents active-contents " id="skills">
+                <ul>
+                    <li><span>Frontend</span> <br>HTML,CSS,JS,BOOTSTRAP</li>
+                    <li><span>Backend</span><br>PHP</li>
+                    <li><span>Software  </span><br>
+                        Vs code,Git</li>
+                </ul>
+                </div>
+                <div class="aboutMe-contents" id="education">
+                    <ul>
+                        <li><span>College</span> <br>Currently studying BE CSE 2nd year of my college</li>
+                       
+                    </ul>
+                    </div>
+                    <div class="aboutMe-contents" id="experience">
+                        <ul>
+                            <li><span>KodeUx</span> <br>3 month in Frontend</li>
+                            <li><span>Codsoft </span><br>1 month in Frontend</li>
+                            <li><span>Freelancer </span><br>1 year in frontend and  backend (php,html,css,js,bootstrap) </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+     </div>
+ </div>
+<!-- Projects -->
+<section id="#projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project-name">
+                <img src="./images/work-1.png" alt="">
+                <div class="layer">
+                    <h4>Basic Simple Calculator</h4>
+                    <p>Basic Simple Calculator and we can easily add any numbers without taking time</p>
+                    <a href="https://mr-tamil-coder.github.io/codsoft/calculator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                   
+                </div>
+            </div>
+            <div class="project-name">
+                <img src="./images/work-2.png" alt="">
+                <div class="layer">
+                    <h4>Simon Game</h4>
+                    <p>The Simon Game is not just a game; it's an incredible exercise for the mind, designed to challenge your memory and pattern recognition skills. Whether you're a puzzle enthusiast, a casual gamer looking for fun, or someone who loves a good brain teaser, this game has something for everyone..</p>
+                    <a href="https://tamizhan.rf.gd/simon/?i=2"><i class="fa-solid fa-up-right-from-square"></i></a>                  
+                </div>
+            </div>
+            <div class="project-name">
+                <img src="./images/work-3.png" alt="">
+                <div class="layer">
+                    <h4>CGPA Calculator</h4>
+                    <p>This calculator was born out of a need to easily calculate my CGPA, and it's designed to simplify the process. It's a small project, but it reflects my passion for problem-solving and coding.
+                    </p>
+                    <a href="https://mr-tamil-coder.github.io/webDevelopmentProject/gcpa/sem2/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact -->
+<section class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me
+                </h1>
+                <p><i class="fa-regular fa-envelope"></i>mohanrajvinoth2004@gmail.comm</p>
+               
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i>  </a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i>  </a>
+                    <a href=""> <i class="fa-brands fa-github"></i> </a>
+                    <a href="">  </a>
+                </div>
+                <a href="#" class="resume-btn">Download Resume</a>
+
+            </div>
+            <div class="contact-right">
+                <form action="#">
+                    <input type="text" name="username" id="username" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <textarea name="Messaage" id="Message" placeholder="Enter Your Message"  cols="10" rows="8"></textarea>
+                    <input type="submit" value="Submit">
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+ <script src="js/script.js"></script>
+</body>
+</html>

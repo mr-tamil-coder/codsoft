@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Page</title>
+    <style>
+        .active-link,.active-linkb,.active-contentsb{
+            background-color: red;
+        }
+        .vinoth{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <ul class="titleLinks">
+        <li class="active-linkb">Item 1</li>
+        <li>Item 2</li>
+        <li class="active-link">Item 3</li>
+        <li>Item 4</li>
+        <li class="active-link">Item 5</li>
+    </ul>
+
+    <div class="aboutMeContents">
+        <p class="active-contentsb">Content 1</p>
+        <p>Content 2</p>
+        <p class="active-contents">Content 3</p>
+    </div>
+
+    <script>
+        const titleLinks = document.querySelectorAll('.titleLinks li');
+        const aboutMeContents = document.querySelectorAll('.aboutMeContents p');
+
+        for (const titleLink of titleLinks) {
+            titleLink.classList.add("vinoth");
+        }
+
+        for (const aboutMeContent of aboutMeContents) {
+            aboutMeContent.classList.add("vinoth");
+        }
+        e.currentTarget
+    </script>
+</body>
+</html>
